@@ -6,7 +6,7 @@ Create a function for calculations only.
 
 ## Clone project
 ```bash
-git clone http://github.com/playwork/hyp-api.git
+git clone https://github.com/Kim1090/ski-skill.git
 cd ski-skill
 npm install
 ```
