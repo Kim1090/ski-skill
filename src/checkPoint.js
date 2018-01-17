@@ -4,7 +4,7 @@
  * @pointLeft {*} Left of point  
  * @pointRight {*} Right of point 
  */
-const checkPointHorizontal = async(pointLeft, pointRight) => {
+const checkPointHorizontal = (pointLeft, pointRight) => {
   if(pointLeft && pointRight) {
     if(pointLeft > pointRight) {
       return {
@@ -40,7 +40,7 @@ const checkPointHorizontal = async(pointLeft, pointRight) => {
  * @pointTop {*} Top of point 
  * @pointBelow {*} Below of point 
  */
-const checkPointVertical = async(pointTop, pointBelow) => {
+const checkPointVertical = (pointTop, pointBelow) => {
   if(pointTop && pointBelow) {
     if(pointTop > pointBelow) {
       return {
@@ -76,7 +76,7 @@ const checkPointVertical = async(pointTop, pointBelow) => {
  * @pointHorizontal {*} point Horizontal 
  * @pointVertical {*} point Vertical 
  */
-const checkLastPoint = async(pointHorizontal, pointVertical) => {
+const checkLastPoint = (pointHorizontal, pointVertical) => {
   if(pointHorizontal.point && pointVertical.point) {
     if(pointHorizontal.point > pointVertical.point) {
       return pointHorizontal;

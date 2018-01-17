@@ -6,7 +6,7 @@
  * @length {*} length of point
  * 
  */
-const calculateRoute = async(data, length) => {
+const calculateRoute = (data, length) => {
   let finalPoint = 0;
   let pointWays = [];
   for (const list in data) {
